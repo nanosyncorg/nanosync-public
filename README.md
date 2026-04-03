@@ -24,7 +24,7 @@ docker pull ghcr.io/nanosyncorg/nanosync:latest
 
 ## Documentation
 
-[docs.nanosync.dev](https://nanosync.dev/docs)
+[nanosync.dev/docs](https://nanosync.dev/docs)
 
 ## Releases
 
