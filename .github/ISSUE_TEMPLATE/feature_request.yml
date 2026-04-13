@@ -1,0 +1,54 @@
+name: Feature request
+description: Suggest an idea or improvement for nanosync
+labels: ["enhancement"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Got an idea? Tell us what you'd like to see. Be as specific as you can about the problem you're trying to solve.
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What problem are you trying to solve?
+      placeholder: "I'm trying to do X but can't because..."
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: What would the ideal solution look like?
+      placeholder: Describe the feature or behaviour you'd want.
+    validations:
+      required: true
+
+  - type: textarea
+    id: alternatives
+    attributes:
+      label: Alternatives you've considered
+      placeholder: Any workarounds you're using today?
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: Which area does this relate to?
+      options:
+        - Sources (connectors)
+        - Sinks (connectors)
+        - CDC / streaming
+        - Snapshots
+        - CLI / configuration
+        - Performance
+        - Monitoring / observability
+        - Security
+        - Other
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: willing
+    attributes:
+      label: Would you be willing to contribute a PR?
+      options:
+        - label: "Yes, I'd like to help implement this"
