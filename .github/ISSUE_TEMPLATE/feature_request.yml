@@ -45,10 +45,3 @@ body:
         - Other
     validations:
       required: true
-
-  - type: checkboxes
-    id: willing
-    attributes:
-      label: Would you be willing to contribute a PR?
-      options:
-        - label: "Yes, I'd like to help implement this"
