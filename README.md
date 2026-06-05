@@ -37,3 +37,4 @@ Found a bug or have a feature request? [Open an issue](https://github.com/nanosy
 ## License
 
 Copyright (c) 2026 Nanosync. All rights reserved. See [LICENSE](LICENSE) for details.
+
